@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hata-yonetimi", "hata-yonet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "karar-yapilari-if-else", "karar-yapilari-if-else\karar-yapilari-if-else.csproj", "{C5242E73-08F0-4F6B-B413-CEB7FBF0631F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "karar-yapilari-switch-case", "karar-yapilari-switch-case\karar-yapilari-switch-case.csproj", "{7517ACDB-F874-49AD-AEA3-43117546C6CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C5242E73-08F0-4F6B-B413-CEB7FBF0631F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5242E73-08F0-4F6B-B413-CEB7FBF0631F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5242E73-08F0-4F6B-B413-CEB7FBF0631F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7517ACDB-F874-49AD-AEA3-43117546C6CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7517ACDB-F874-49AD-AEA3-43117546C6CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7517ACDB-F874-49AD-AEA3-43117546C6CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7517ACDB-F874-49AD-AEA3-43117546C6CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
