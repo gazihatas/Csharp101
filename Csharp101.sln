@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "type-donusumleri", "type-do
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hata-yonetimi", "hata-yonetimi\hata-yonetimi.csproj", "{889F5AFC-6DA0-433E-9C4E-03E78EE680AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "karar-yapilari-if-else", "karar-yapilari-if-else\karar-yapilari-if-else.csproj", "{C5242E73-08F0-4F6B-B413-CEB7FBF0631F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "karar-yapilari-if-else", "karar-yapilari-if-else\karar-yapilari-if-else.csproj", "{C5242E73-08F0-4F6B-B413-CEB7FBF0631F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "karar-yapilari-switch-case", "karar-yapilari-switch-case\karar-yapilari-switch-case.csproj", "{7517ACDB-F874-49AD-AEA3-43117546C6CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "karar-yapilari-switch-case", "karar-yapilari-switch-case\karar-yapilari-switch-case.csproj", "{7517ACDB-F874-49AD-AEA3-43117546C6CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "donguler-forLoop-Break-Continue", "donguler-forLoop-Break-Continue\donguler-forLoop-Break-Continue.csproj", "{1DC19099-FB92-4424-B532-D4CA8C37E977}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7517ACDB-F874-49AD-AEA3-43117546C6CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7517ACDB-F874-49AD-AEA3-43117546C6CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7517ACDB-F874-49AD-AEA3-43117546C6CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC19099-FB92-4424-B532-D4CA8C37E977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC19099-FB92-4424-B532-D4CA8C37E977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC19099-FB92-4424-B532-D4CA8C37E977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC19099-FB92-4424-B532-D4CA8C37E977}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
