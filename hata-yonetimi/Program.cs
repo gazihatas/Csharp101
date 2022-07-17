@@ -6,20 +6,20 @@ namespace hata_yonetimi
     {
         static void Main(string[] args)
         {
-        //    try
-        //    {
-        //        //Hataya neden olabilecek kod yazılır.
-        //        //Hata alması muhtemel ve Konrol etmek istediğiniz ve güvence altına almak istediğiniz kod bloğu girilir.
-        //        Console.WriteLine("Bir sayı giriniz:");
-        //        int sayi = Convert.ToInt32(Console.ReadLine());
-        //        Console.WriteLine("Girmiş olduğunuz sayi :" + sayi);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        //hata fırlattığında hata burada gösterilir
-        //        //hatayı yakaladığınızda ne yapmak istiyorsanız onu yapıyorsunuz.
-        //        Console.WriteLine("Hata: " + ex.Message.ToString());
-        //    }
+            //    try
+            //    {
+            //        //Hataya neden olabilecek kod yazılır.
+            //        //Hata alması muhtemel ve Konrol etmek istediğiniz ve güvence altına almak istediğiniz kod bloğu girilir.
+            //        Console.WriteLine("Bir sayı giriniz:");
+            //        int sayi = Convert.ToInt32(Console.ReadLine());
+            //        Console.WriteLine("Girmiş olduğunuz sayi :" + sayi);
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        //hata fırlattığında hata burada gösterilir
+            //        //hatayı yakaladığınızda ne yapmak istiyorsanız onu yapıyorsunuz.
+            //        Console.WriteLine("Hata: " + ex.Message.ToString());
+            //    }
             //finally
             //{
             //    //finally bloğu zorunlu değildir.
@@ -38,12 +38,12 @@ namespace hata_yonetimi
                 Console.WriteLine("Boş değer girdiniz");
                 Console.WriteLine(ex);
             }
-            catch(FormatException ex) 
+            catch (FormatException ex)
             {
                 Console.WriteLine("Veri tipi uygun değil");
                 Console.WriteLine(ex);
             }
-            catch(OverflowException ex)
+            catch (OverflowException ex)
             {
                 Console.WriteLine("Çok küçük yada çok büyük bir değer giridiniz.");
                 Console.WriteLine(ex);

@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operators", "Operators\Oper
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "type-donusumleri", "type-donusumleri\type-donusumleri.csproj", "{CA88F416-DA6D-47DD-B8E6-BB138E8F270B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hata-yonetimi", "hata-yonetimi\hata-yonetimi.csproj", "{889F5AFC-6DA0-433E-9C4E-03E78EE680AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hata-yonetimi", "hata-yonetimi\hata-yonetimi.csproj", "{889F5AFC-6DA0-433E-9C4E-03E78EE680AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "karar-yapilari-if-else", "karar-yapilari-if-else\karar-yapilari-if-else.csproj", "{C5242E73-08F0-4F6B-B413-CEB7FBF0631F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{889F5AFC-6DA0-433E-9C4E-03E78EE680AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{889F5AFC-6DA0-433E-9C4E-03E78EE680AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{889F5AFC-6DA0-433E-9C4E-03E78EE680AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5242E73-08F0-4F6B-B413-CEB7FBF0631F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5242E73-08F0-4F6B-B413-CEB7FBF0631F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5242E73-08F0-4F6B-B413-CEB7FBF0631F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5242E73-08F0-4F6B-B413-CEB7FBF0631F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
