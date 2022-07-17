@@ -29,6 +29,7 @@ namespace metotlar2_metot_overloading
             Console.WriteLine(toplamSonucu);
 
             //Metot Aşırı Yüklenme - Overloading
+            //Metot Overloading => Biz bir fonkisyonun imzasını değiştirerek birden fazla şekilde o fonksiyonu  kullanabiliriz.
 
             int ifade = 999;
             instance.EkranaYazdir(Convert.ToString(ifade));
