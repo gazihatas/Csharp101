@@ -13,19 +13,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "karar-yapilari-if-else", "k
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "karar-yapilari-switch-case", "karar-yapilari-switch-case\karar-yapilari-switch-case.csproj", "{7517ACDB-F874-49AD-AEA3-43117546C6CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "donguler-forLoop-Break-Continue", "donguler-forLoop-Break-Continue\donguler-forLoop-Break-Continue.csproj", "{1DC19099-FB92-4424-B532-D4CA8C37E977}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "donguler-forLoop-Break-Continue", "donguler-forLoop-Break-Continue\donguler-forLoop-Break-Continue.csproj", "{1DC19099-FB92-4424-B532-D4CA8C37E977}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "donguler-while-foreach", "donguler-while-foreach\donguler-while-foreach.csproj", "{4252EEE5-E2A5-4A1C-8D85-69331D2ED9B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "donguler-while-foreach", "donguler-while-foreach\donguler-while-foreach.csproj", "{4252EEE5-E2A5-4A1C-8D85-69331D2ED9B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "diziler1-tanimlama-erisim-dongulerle-dizi-kullanimi", "diziler1-tanimlama-erisim-dongulerle-dizi-kullanimi\diziler1-tanimlama-erisim-dongulerle-dizi-kullanimi.csproj", "{33890674-0442-400A-A9B3-8EBC78FC3D7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "diziler1-tanimlama-erisim-dongulerle-dizi-kullanimi", "diziler1-tanimlama-erisim-dongulerle-dizi-kullanimi\diziler1-tanimlama-erisim-dongulerle-dizi-kullanimi.csproj", "{33890674-0442-400A-A9B3-8EBC78FC3D7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "diziler2-array-sinifi-metotlari", "diziler2-array-sinifi-metotlari\diziler2-array-sinifi-metotlari.csproj", "{AA168A9B-5E70-413C-A3DD-6F71F58D834A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "diziler2-array-sinifi-metotlari", "diziler2-array-sinifi-metotlari\diziler2-array-sinifi-metotlari.csproj", "{AA168A9B-5E70-413C-A3DD-6F71F58D834A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metotlar", "metotlar\metotlar.csproj", "{3921846C-1AC1-4497-BE43-6A31BAE429D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "metotlar", "metotlar\metotlar.csproj", "{3921846C-1AC1-4497-BE43-6A31BAE429D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metotlar2-metot-overloading", "metotlar2-metot-overloading\metotlar2-metot-overloading.csproj", "{91E2825E-6E0C-40F9-9AC2-B99D46AB5142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "metotlar2-metot-overloading", "metotlar2-metot-overloading\metotlar2-metot-overloading.csproj", "{91E2825E-6E0C-40F9-9AC2-B99D46AB5142}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metotlar3-recursive-extension-metotlar", "metotlar3-recursive-extension-metotlar\metotlar3-recursive-extension-metotlar.csproj", "{E98519CB-AB0B-45A4-AF76-4F9776EEE5EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "metotlar3-recursive-extension-metotlar", "metotlar3-recursive-extension-metotlar\metotlar3-recursive-extension-metotlar.csproj", "{E98519CB-AB0B-45A4-AF76-4F9776EEE5EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Odev1-Algoritma-Sorunlari", "Odev1-Algoritma-Sorunlari\Odev1-Algoritma-Sorunlari.csproj", "{67272B26-6EE2-44C2-B168-C62E7C2A0094}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ODAKGIS_INTERNSHIP", "ODAKGIS_INTERNSHIP", "{EF3D3830-CED2-480F-AEB6-93D612D5CC57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AREA-PERIMETER-CALCULATOR", "AREA-PERIMETER-CALCULATOR\AREA-PERIMETER-CALCULATOR.csproj", "{AD5A1CA1-91FA-4F87-A6F2-5BD51360A043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PASCAL_TRIANGLE", "PASCAL_TRIANGLE\PASCAL_TRIANGLE.csproj", "{44CCBF6E-5DA3-4B79-A1E1-C46179BF8E37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BASIC_CALCULATOR", "BASIC_CALCULATOR\BASIC_CALCULATOR.csproj", "{18147097-5747-4BDE-8743-BB552D13FC79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EXAM_GRADE_CALCULATOR", "EXAM_GRADE_CALCULATOR\EXAM_GRADE_CALCULATOR.csproj", "{DD55594A-383A-4B78-A962-EF6C8EAB9515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEMORY_CARD_GAME", "MEMORY_CARD_GAME\MEMORY_CARD_GAME.csproj", "{4BEC4878-5079-4E70-A8D9-B4ED4B499A7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_COMPANY_PROGRAM", "OOP_COMPANY_PROGRAM\OOP_COMPANY_PROGRAM.csproj", "{F9753080-8E5C-4723-B723-E3691A1A424E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,9 +97,45 @@ Global
 		{E98519CB-AB0B-45A4-AF76-4F9776EEE5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E98519CB-AB0B-45A4-AF76-4F9776EEE5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E98519CB-AB0B-45A4-AF76-4F9776EEE5EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67272B26-6EE2-44C2-B168-C62E7C2A0094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67272B26-6EE2-44C2-B168-C62E7C2A0094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67272B26-6EE2-44C2-B168-C62E7C2A0094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67272B26-6EE2-44C2-B168-C62E7C2A0094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD5A1CA1-91FA-4F87-A6F2-5BD51360A043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5A1CA1-91FA-4F87-A6F2-5BD51360A043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5A1CA1-91FA-4F87-A6F2-5BD51360A043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5A1CA1-91FA-4F87-A6F2-5BD51360A043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44CCBF6E-5DA3-4B79-A1E1-C46179BF8E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44CCBF6E-5DA3-4B79-A1E1-C46179BF8E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44CCBF6E-5DA3-4B79-A1E1-C46179BF8E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44CCBF6E-5DA3-4B79-A1E1-C46179BF8E37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18147097-5747-4BDE-8743-BB552D13FC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18147097-5747-4BDE-8743-BB552D13FC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18147097-5747-4BDE-8743-BB552D13FC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18147097-5747-4BDE-8743-BB552D13FC79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD55594A-383A-4B78-A962-EF6C8EAB9515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD55594A-383A-4B78-A962-EF6C8EAB9515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD55594A-383A-4B78-A962-EF6C8EAB9515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD55594A-383A-4B78-A962-EF6C8EAB9515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BEC4878-5079-4E70-A8D9-B4ED4B499A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BEC4878-5079-4E70-A8D9-B4ED4B499A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BEC4878-5079-4E70-A8D9-B4ED4B499A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BEC4878-5079-4E70-A8D9-B4ED4B499A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9753080-8E5C-4723-B723-E3691A1A424E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9753080-8E5C-4723-B723-E3691A1A424E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9753080-8E5C-4723-B723-E3691A1A424E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9753080-8E5C-4723-B723-E3691A1A424E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD5A1CA1-91FA-4F87-A6F2-5BD51360A043} = {EF3D3830-CED2-480F-AEB6-93D612D5CC57}
+		{44CCBF6E-5DA3-4B79-A1E1-C46179BF8E37} = {EF3D3830-CED2-480F-AEB6-93D612D5CC57}
+		{18147097-5747-4BDE-8743-BB552D13FC79} = {EF3D3830-CED2-480F-AEB6-93D612D5CC57}
+		{DD55594A-383A-4B78-A962-EF6C8EAB9515} = {EF3D3830-CED2-480F-AEB6-93D612D5CC57}
+		{4BEC4878-5079-4E70-A8D9-B4ED4B499A7B} = {EF3D3830-CED2-480F-AEB6-93D612D5CC57}
+		{F9753080-8E5C-4723-B723-E3691A1A424E} = {EF3D3830-CED2-480F-AEB6-93D612D5CC57}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F9483A8-2C6B-4B1B-9720-EE5DA17354A3}
