@@ -28,14 +28,77 @@ yalnızca yanlış girilen değer kullanıcıdan doğrusu girilene kadar tekrar 
              *
              */
 
+            AritmetikIslemler instance = new();
+            char cikis = 'h';
+            do
+            {
+                Console.Clear();
+                Console.WriteLine("***** BASİT HESAP MAKİNESİ *****");
+                Console.WriteLine("Toplama için 1");
+                Console.WriteLine("Çıkarma için 2");
+                Console.WriteLine("Çarpma için 3");
+                Console.WriteLine("Bölme için 4");
+                Console.WriteLine("Mod alma için 5");
+                Console.WriteLine("Çıkış için 0");
+                int secim = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("***** BASİT HESAP MAKİNESİ *****");
-            Console.WriteLine("Toplama için 1");
-            Console.WriteLine("Çıkarma için 2");
-            Console.WriteLine("Çarpma için 3");
-            Console.WriteLine("Bölme için 4");
-            Console.WriteLine("Mod alma için 0");
-            int secim = Convert.ToInt32(Console.ReadLine());
+                switch (secim)
+                {
+                    case 0: 
+                            cikis = 'e';
+                        break;
+                    case 1:
+                        Console.WriteLine("***** TOPLAMA İŞLEMİ *****");
+                        Console.WriteLine("Lütfen 1. sayıyı giriniz");
+                        double sayi1 = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Lütfen 2. sayıyı giriniz");
+                        double sayi2 = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Toplam : {0}", instance.topla(sayi1,sayi2));
+                        Console.ReadKey();
+                        break;
+                    case 2:
+                        Console.WriteLine("***** ÇIKARMA İŞLEMİ *****");
+                        Console.WriteLine("Lütfen 1. sayıyı giriniz");
+                        double sayi3 = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Lütfen 2. sayıyı giriniz");
+                        double sayi4 = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("FARK : {0}", instance.cikar(sayi3, sayi4));
+                        Console.ReadKey();
+                        break;
+                    case 3:
+                        Console.WriteLine("***** ÇARPMA İŞLEMİ *****");
+                        Console.WriteLine("Lütfen 1. sayıyı giriniz");
+                        double sayi5 = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Lütfen 2. sayıyı giriniz");
+                        double sayi6 = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Toplam : {0}", instance.carp(sayi5, sayi6));
+                        Console.ReadKey();
+                        break;
+                    case 4:
+                        Console.WriteLine("***** BÖLME İŞLEMİ *****");
+                        Console.WriteLine("Lütfen 1. sayıyı giriniz");
+                        double sayi7 = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Lütfen 2. sayıyı giriniz");
+                        double sayi8 = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Toplam : {0}", instance.bolme(sayi7, sayi8));
+                        Console.ReadKey();
+                        break;
+                    case 5:
+                        Console.WriteLine("***** MOD ALMA İŞLEMİ *****");
+                        Console.WriteLine("Lütfen 1. sayıyı giriniz");
+                        int sayi9 = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Lütfen 2. sayıyı giriniz");
+                        int sayi10 = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Toplam : {0}", instance.carp(sayi9, sayi10));
+                        Console.ReadKey();
+                        break;
+                    default:
+                        Console.WriteLine("mevcut seçenekler dışında bir değer girilemez");
+                        break;
+                }
+
+            } while (cikis != 'h');
+               
 
             
         }
@@ -65,6 +128,12 @@ yalnızca yanlış girilen değer kullanıcıdan doğrusu girilene kadar tekrar 
                 double bolum = sayi1 / sayi2;
                 
                 return bolum;
+            }
+
+            public int mod(int sayi1, int sayi2)
+            {
+                int mod = sayi1 % sayi2;
+                return mod;
             }
 
 
