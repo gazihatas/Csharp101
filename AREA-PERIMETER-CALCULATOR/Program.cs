@@ -1,5 +1,7 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Net.Mime;
+using System.Runtime.CompilerServices;
 
 namespace AREA_PERIMETER_CALCULATOR
 {
@@ -32,6 +34,37 @@ namespace AREA_PERIMETER_CALCULATOR
                             switch (alanSecim)
                             {
                                 case 1:
+                                    Console.WriteLine("***** ÜÇGEN TİPİ*****");
+                                    Console.WriteLine("EŞKENAR ÜÇGEN 1");
+                                    Console.WriteLine("İKİZKENAR ÜÇGEN 2");
+                                    Console.WriteLine("ÇEŞİTKENAR ÜÇGEN 3");
+
+                                    switch (Console.ReadLine())
+                                    {
+                                        case "1":
+                                            Console.WriteLine("***** EŞKENAR ÜÇGEN ALANI HESAPLAMA");
+                                            Console.WriteLine("Lütfen kenar değerini giriniz");
+                                            int esKenarUcgenKenar = Convert.ToInt32(Console.ReadLine());
+                                            Console.WriteLine("Lütfen yükseklik değerini giriniz");
+                                            int esKenarUcgenYukseklik = Convert.ToInt32(Console.ReadLine());
+                                            Console.WriteLine("Eşkenar Üçgenin Alanı: {0}" , instance.eskenarUcgenAlan(esKenarUcgenKenar, esKenarUcgenYukseklik));
+                                            break;
+                                        case "2":
+                                            break;
+                                        case "3":
+                                            Console.WriteLine("***** ÇEŞİTKENAR ÜÇGEN ALANI HESAPLAMA");
+                                            Console.WriteLine("Lütfen 1. kenar değerini giriniz");
+                                            int birinciKenar = Convert.ToInt32(Console.ReadLine());
+                                            Console.WriteLine("Lütfen 2. kenar değerini giriniz");
+                                            int ikinciKenar = Convert.ToInt32(Console.ReadLine());
+                                            Console.WriteLine("Lütfen 3. kenar değerini giriniz");
+                                            int ucuncuKenar = Convert.ToInt32(Console.ReadLine());
+                                            Console.WriteLine("Çeşitkenar Üçgenin Alanı: {0}", instance.cesitKenarUcgenAlani(birinciKenar,ikinciKenar,ucuncuKenar));
+                                            break;
+                                        default:
+                                            Console.WriteLine("Lütfen geçerli bir değer giriniz");
+                                            break;
+                                    }
                                     break;
                                 case 2:
                                     Console.WriteLine("Karenin bir kenarını giriniz.");
@@ -165,6 +198,31 @@ namespace AREA_PERIMETER_CALCULATOR
         {
             int cevre = kenar * 3;
             return cevre;
+        }
+
+        //Çeşitkenar ücgen
+        public int cesitKenarUcgenAlani(int a, int b, int c)
+        {
+            /*
+            int a, b, c, u, cevre;
+            double alan;
+            System.out.println("1.kenari gir: ");
+            a = inp.nextInt();
+            System.out.println("2.kenari gir: ");
+            b = inp.nextInt();
+            System.out.println("3.kenari gir: ");
+            c = inp.nextInt();
+
+            cevre = a + b + c;
+            u = cevre / 2;
+            alan = Math.sqrt((u * (u - a) * (u - b) * (u - c)));
+            System.out.println("Üçgenin alani: " + alan);
+        
+            */
+            int cevre = a+ b+c;
+            int u = cevre / 2;
+            double alan = Math.Sqrt((u * (u - a) * (u - b) * (u - c)));
+            return (int)alan;
         }
     }
 }
