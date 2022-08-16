@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "metotlar3-recursive-extensi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Odev1-Algoritma-Sorunlari", "Odev1-Algoritma-Sorunlari\Odev1-Algoritma-Sorunlari.csproj", "{67272B26-6EE2-44C2-B168-C62E7C2A0094}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoritmaSorular", "AlgoritmaSorular\AlgoritmaSorular.csproj", "{53295290-5B80-480F-800F-01014F48B5E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{67272B26-6EE2-44C2-B168-C62E7C2A0094}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67272B26-6EE2-44C2-B168-C62E7C2A0094}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67272B26-6EE2-44C2-B168-C62E7C2A0094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53295290-5B80-480F-800F-01014F48B5E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53295290-5B80-480F-800F-01014F48B5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53295290-5B80-480F-800F-01014F48B5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53295290-5B80-480F-800F-01014F48B5E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
