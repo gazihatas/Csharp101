@@ -29,23 +29,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "metotlar3-recursive-extensi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Odev1-Algoritma-Sorunlari", "Odev1-Algoritma-Sorunlari\Odev1-Algoritma-Sorunlari.csproj", "{67272B26-6EE2-44C2-B168-C62E7C2A0094}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoritmaSorular", "AlgoritmaSorular\AlgoritmaSorular.csproj", "{53295290-5B80-480F-800F-01014F48B5E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgoritmaSorular", "AlgoritmaSorular\AlgoritmaSorular.csproj", "{53295290-5B80-480F-800F-01014F48B5E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringMetotlar", "StringMetotlar\StringMetotlar.csproj", "{5829B377-EAE0-4856-B233-FDA52B299C62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringMetotlar", "StringMetotlar\StringMetotlar.csproj", "{5829B377-EAE0-4856-B233-FDA52B299C62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeMath", "DateTimeMath\DateTimeMath.csproj", "{55ECC3A1-29AF-49D3-96CA-E0C76E43BC4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTimeMath", "DateTimeMath\DateTimeMath.csproj", "{55ECC3A1-29AF-49D3-96CA-E0C76E43BC4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericKoleksiyonlarList", "GenericKoleksiyonlarList\GenericKoleksiyonlarList.csproj", "{9F42171D-80FB-440B-B755-4305E12F7835}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericKoleksiyonlarList", "GenericKoleksiyonlarList\GenericKoleksiyonlarList.csproj", "{9F42171D-80FB-440B-B755-4305E12F7835}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoleksiyonlarArrayList", "KoleksiyonlarArrayList\KoleksiyonlarArrayList.csproj", "{EA562AB1-3719-499A-BF79-E43F8FF32C7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KoleksiyonlarArrayList", "KoleksiyonlarArrayList\KoleksiyonlarArrayList.csproj", "{EA562AB1-3719-499A-BF79-E43F8FF32C7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{AF9FD53D-A48A-4D7B-93EB-6EA8373DD388}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "Dictionary\Dictionary.csproj", "{AF9FD53D-A48A-4D7B-93EB-6EA8373DD388}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KoleksiyonlarOdev2", "KoleksiyonlarOdev2", "{8A398877-6A72-4F45-8DCD-CE3BD46298FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soru1", "Soru1\Soru1.csproj", "{4C0DE090-F48D-4007-8631-6E4591A04E62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soru1", "Soru1\Soru1.csproj", "{4C0DE090-F48D-4007-8631-6E4591A04E62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsalSayi", "AsalSayi\AsalSayi.csproj", "{C56BAC50-FBFF-43B0-B9DF-E3575039F665}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsalSayi", "AsalSayi\AsalSayi.csproj", "{C56BAC50-FBFF-43B0-B9DF-E3575039F665}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diziler", "Diziler\Diziler.csproj", "{87FA1785-6AF4-4016-AD3E-918D55A4565F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,6 +139,10 @@ Global
 		{C56BAC50-FBFF-43B0-B9DF-E3575039F665}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C56BAC50-FBFF-43B0-B9DF-E3575039F665}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C56BAC50-FBFF-43B0-B9DF-E3575039F665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87FA1785-6AF4-4016-AD3E-918D55A4565F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87FA1785-6AF4-4016-AD3E-918D55A4565F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87FA1785-6AF4-4016-AD3E-918D55A4565F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87FA1785-6AF4-4016-AD3E-918D55A4565F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
