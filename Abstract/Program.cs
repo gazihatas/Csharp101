@@ -17,16 +17,6 @@ namespace InterfaceOrnek
             Console.WriteLine(civic.StandartRengiNe().ToString());
 
 
-            NewFocus focus1 = new NewFocus();
-            Console.WriteLine(focus1.HangiMarkaninAraci().ToString());
-            Console.WriteLine(focus1.KacTekerlektenOlusur());
-            Console.WriteLine(focus1.StandarRenkNe().ToString());
-
-            NewCivic civic1 = new NewCivic();
-            Console.WriteLine(civic1.HangiMarkaninAraci().ToString());
-            Console.WriteLine(civic1.KacTekerlektenOlusur());
-            Console.WriteLine(civic1.StandarRenkNe().ToString());
-
         }
     }
 }
