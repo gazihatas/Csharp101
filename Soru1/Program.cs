@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.ComponentModel.Design;
+using System.Net.Http;
 
 namespace Soru1
 {
@@ -8,158 +9,93 @@ namespace Soru1
     {
         static void Main(string[] args)
         {
-            ArrayList asalSayilar = new ArrayList();
-            ArrayList asalOlmayanSayilar = new ArrayList();
+            /*
+             * Soru - 1: Klavyeden girilen 20 adet pozitif sayının asal ve asal olmayan olarak 2 ayrı listeye atın. 
+             * (ArrayList sınıfını kullanara yazınız.)
+
+            Negatif ve numeric olmayan girişleri engelleyin.
+            Her bir dizinin elemanlarını büyükten küçüğe olacak şekilde ekrana yazdırın.
+            Her iki dizinin eleman sayısını ve ortalamasını ekrana yazdırın.
+            */
             
-            //listelere elemanları atamaya başladık
-            Console.Write("Sayıları Girin : ");
-            for (int j = 0; j < 20; j++)
+            ArrayList asalSayilar = new ArrayList();
+            ArrayList asalOlmayanlar = new ArrayList();
+
+            for (int i = 1; i <= 20; i++)
             {
                 try
                 {
                     int sayi = int.Parse(Console.ReadLine());
                     int sayac = 0;
-                    if (sayi > 0 && !sayi.Equals(typeof(int)))
+                    if(IsPrimeNumber(sayi)==true && !sayi.Equals(typeof(int)))
                     {
-                        for (int i = 2; i < sayi; i++)
-                        {
-                            if (sayi % i == 0)
-                            {
-                                sayac++;
-                            }
-                        }
-                        if (sayac == 0)
-                        {
-                            asalSayilar.Add(sayi);
-                        }
-                        else
-                        {
-                            asalOlmayanSayilar.Add(sayi);
-                        }
+                        asalSayilar.Add(sayi);
+                    }
+                    else if(IsPrimeNumber(sayi)==false && !sayi.Equals(typeof(int)))
+                    {
+                        asalOlmayanlar.Add(sayi);
                     }
                     else
                     {
-                        Console.WriteLine("Lütfen pozitif sayı değeri giriniz");
+                        Console.WriteLine("Pozitif sayı girin.");
                     }
+                
                 }
-                catch
+                catch 
                 {
-
-                    Console.WriteLine("Hatalı değer girdiniz lütfen pozitif tam sayı değeri giriniz");
+                    Console.WriteLine("Lütfen pozitif sayı girin!");
                 }
-
             }
+            //Sayi girişleri ve listelere atamalar yapıldı.
 
-            Console.WriteLine("******************************");
-            int sayacAsalSayi = 0;
-
-            //listelere elemanları atamayı bitirdik
-
-            //Kaçar tane asal ve asal olmayan sayı var 
-            foreach (var item in asalSayilar)
-            {
-                sayacAsalSayi++;
-            }
-            int sayacAsalOlmayanSayi = 0;
-
-            foreach (var item in asalOlmayanSayilar)
-            {
-                sayacAsalOlmayanSayi++;
-            }
-
-            Console.WriteLine("Asal Olan Sayılar Toplam: " + sayacAsalSayi + " Adet");
-            Console.WriteLine("Asal Olmayan Sayılar Toplam: " + sayacAsalOlmayanSayi + " Adet");
-            // Kaç tane olduğunu bulduk
-
-            Console.WriteLine("******************************");
-
-            //büyükten küçüğe olacak şekilde sıraladığımız kısım
-
-
-            for (int i = 0; i < sayacAsalSayi; i++)
-            {
-
-                for (int j = 0; j < sayacAsalSayi - 1; j++)
-                {
-                    if ((int)asalSayilar[i] > (int)asalSayilar[j])
-                    {
-                        int temp = (int)asalSayilar[i];
-                        asalSayilar[i] = (int)asalSayilar[j];
-                        asalSayilar[j] = temp;
-                    }
-                }
-
-
-            }
-
-
-
-
-            for (int i = 0; i < sayacAsalOlmayanSayi; i++)
-            {
-
-                for (int j = 0; j < sayacAsalOlmayanSayi - 1; j++)
-                {
-                    if ((int)asalOlmayanSayilar[i] > (int)asalOlmayanSayilar[j])
-                    {
-                        int temp = (int)asalOlmayanSayilar[i];
-                        asalOlmayanSayilar[i] = (int)asalOlmayanSayilar[j];
-                        asalOlmayanSayilar[j] = temp;
-                    }
-                }
-
-
-            }
-
-            //büyükten küçüğe sıralama bitti
-
-            Console.Write("Asal sayılar: ");
-            foreach (int item in asalSayilar)
-            {
-                Console.Write(item + " ,");
-            }
-
-            Console.WriteLine(" ");
-            Console.Write("Asal olmayan sayılar: ");
-            foreach (int item in asalOlmayanSayilar)
-            {
-                Console.Write(item + " ,");
-            }
-
-
-            //ortalama alma 
-            Console.WriteLine(" ");
-            int asalOlmayanToplam = 0;
-            for (int j = 0; j < sayacAsalOlmayanSayi; j++)
-            {
-                asalOlmayanToplam += (int)asalOlmayanSayilar[j];
-
-            }
-
+            
+            Console.WriteLine("------------------------------------>");
+            
+            asalSayilar.Reverse();
+            int asalSayac = 0;
             int asalToplam = 0;
-            for (int j = 0; j < sayacAsalSayi; j++)
+            //Asal arraylist' i içerisindeki sayıları döndürme
+            Console.WriteLine("Girilen Asal Sayılar :");
+            foreach (var asal in asalSayilar)
             {
-                asalToplam += (int)asalSayilar[j];
-
+                Console.Write(" {0}, ", asal);
+                asalSayac++;
+            }
+            //Asal array listindeki elemanların toplamı
+            for (int i = 0; i < asalSayilar.Count; i++)
+            {
+                asalToplam += (int)asalSayilar[i];
+            }
+            
+            Console.WriteLine("---------------------->");
+            asalOlmayanlar.Reverse();
+            //int asalOlmayanSayac = 0;
+            int asalOlmayanToplam = 0;
+            Console.WriteLine("Girilen Asal Sayı Olmayan Sayılar : ");
+            foreach (var asalOlmayan in asalOlmayanlar)
+            {
+                Console.Write("{0}, ",asalOlmayan);
+                //asalOlmayanSayac++;
             }
 
-            if (sayacAsalSayi > 0)
+            for (int i = 0; i < asalOlmayanlar.Count; i++)
             {
-                double asalOrtalama = asalToplam / sayacAsalSayi;
-                Console.WriteLine("Asal Sayıların Ortalaması: " + asalOrtalama);
+                asalOlmayanToplam += (int)asalOlmayanlar[i];
             }
-            if (sayacAsalOlmayanSayi > 0)
-            {
-                double asalOlmayanOrtalama = asalOlmayanToplam / sayacAsalOlmayanSayi;
-                Console.WriteLine("Asal Olmayan Sayıların Ortalaması: " + asalOlmayanOrtalama);
-            }
+            Console.WriteLine("------------------------------------>");
 
+            Console.WriteLine("***** ASAL ******");
+            Console.WriteLine("Asal Sayıların Toplamı : {0}",asalToplam);
+            Console.WriteLine("{0} adet asal sayı vardır.",asalSayilar.Count);
 
-
-
+            Console.WriteLine("**** ASAL OLMAYAN *****");
+            Console.WriteLine("Asal Sayı Olmayan Sayıların Toplamı : {0}", asalOlmayanlar.Count);
+            Console.WriteLine("{0} adet asal OLMAYAN sayı vardır.", asalOlmayanlar.Count);
 
         }
 
+
+        //Asal sayı olup olmadıgını kontrol eden fonksiyonumuz
         private static bool IsPrimeNumber(int number)
         {
 
