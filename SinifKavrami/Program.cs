@@ -41,7 +41,7 @@ namespace SinifKavrami
         }
 
         class Calisan
-        {
+        { 
             public string Ad;
             public string Soyad;
             public int No;
@@ -54,5 +54,6 @@ namespace SinifKavrami
                 Console.WriteLine("Çalışanın Numarası: {0}", No);
                 Console.WriteLine("Çalışanın Departmanı:{0}",Departman);
             }
-        } }
+        }
+    }
 }
