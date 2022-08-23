@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
+    //sealed keyword u kalıtım almasını istediğiniz class larda erişim belirtecinden sonra kullanılır.
     public class Canlilar
     {
         protected void Beslenme()
@@ -21,6 +22,11 @@ namespace Inheritance
         protected void Bosaltim()
         {
             Console.WriteLine("Canlılar boşaltım yapar.");
+        }
+
+        public virtual void UyaranlaraTepki()
+        {
+            Console.WriteLine("Canlılar uyaranlara tepki verir.");
         }
     }
 }

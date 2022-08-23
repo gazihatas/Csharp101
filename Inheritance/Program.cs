@@ -6,7 +6,7 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
-            Bitkiler.TohumluBitkiler tohumluBitki = new Bitkiler.TohumluBitkiler();
+            TohumluBitkiler tohumluBitki = new TohumluBitkiler();
             tohumluBitki.TohumlaCogalma();
 
             Console.WriteLine("**************");
