@@ -6,7 +6,7 @@ using PhoneMemberApp.Entities;
 
 namespace PhoneMemberApp.ConsoleUI
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -101,4 +101,6 @@ namespace PhoneMemberApp.ConsoleUI
 
         }
     }
+
+    
 }
