@@ -43,7 +43,10 @@ namespace PhoneMemberApp.ConsoleUI
                     Person persona = new Person() { Id = idSayac++, Name = consoleName, PhoneNumber = consolePhoneNumber, Surname = consoleSurname };
 
                     personalController.Add(persona);
-
+                    Console.WriteLine("Kayıt başarılı");
+                    Console.WriteLine("MENU'ye dönmek için 1");
+                    Console.WriteLine("ÇIKIŞ için 0");
+                    
                     foreach (var aperson in personalController.GetAll())
                     {
                         Console.WriteLine(aperson.Name);
