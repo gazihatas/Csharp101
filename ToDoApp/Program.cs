@@ -6,6 +6,9 @@ namespace ToDoApp
     {
         static void Main(string[] args)
         {
+            BoardManager boardManager = new BoardManager();
+            boardManager.varsayilanKisi();
+            boardManager.varsayilanKart();
             Console.WriteLine("Lütfen yapmak istediğiniz işlemi seçiniz :)");
             Console.WriteLine("*******************************************");
             Console.WriteLine("(1) Board Listelemek");
@@ -19,16 +22,16 @@ namespace ToDoApp
             switch (selection)
             {
                 case 1:
-                   // SelectionOperations.ListBoard();
+                    boardManager.kartListeleme();
                     break;
                 case 2:
-                   // SelectionOperations.AddBoard();
+                    boardManager.kartEkle();
                     break;
                 case 3:
-                    //SelectionOperations.RemoveBoard();
+                    boardManager.kartSil();
                     break;
                 case 4:
-                    //SelectionOperations.TransBoard();
+                    boardManager.kartTasi();
                     break;
                 default:
                     Console.WriteLine("Hatalı seçim yaptınız.");

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ToDoApp
+namespace ToDoApp.Enum
 {
-    public enum EnumBoyut
+    public enum Boyut
     {
         XS = 1,
         S,
