@@ -8,5 +8,10 @@ namespace ToDoApp
 {
     public interface IBoardService
     {
+        void kartEkle();
+        void kartGuncelle();
+        void kartSil();
+        void kartTasi();
+        void boardListeleme();
     }
 }
