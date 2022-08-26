@@ -35,7 +35,6 @@ namespace ToDoApp
                     break;
                 default:
                     Console.WriteLine("Hatalı seçim yaptınız.");
-                    //Menu.MenuUI();
                     break;
 
 
